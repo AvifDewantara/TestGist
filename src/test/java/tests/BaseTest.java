@@ -22,7 +22,7 @@ public class BaseTest {
     public void classLevelSetup() {
     	
     	// chrome 
-    	System.setProperty("webdriver.chrome.driver", "/Users/rizqi.fauzan/Downloads/chromedriver2");
+    	System.setProperty("webdriver.chrome.driver", "E:\\FILE AVIF\\webdriver\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
 
         // firefox

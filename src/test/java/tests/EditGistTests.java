@@ -19,7 +19,7 @@ public class EditGistTests extends BaseTest {
  
         ghPage
 	        .gotoLoginPage()
-	        .inputCredential("email", "password")
+	        .inputCredential("avif@gmail.com", "pwd")
 	        .gotoGitsPage()
 	        .verivyPage()
 	        .gotoUserpage()

@@ -19,7 +19,7 @@ public class CreateGistTests extends BaseTest {
 
         ghPage
 	        .gotoLoginPage()
-	        .inputCredential("email", "password")
+	        .inputCredential("avif@gmail.com", "pwd")
 	        .gotoGitsPage()
 	        .verivyPage()
 	        .createGist("description", "name", "ini text ya")
